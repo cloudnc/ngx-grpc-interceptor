@@ -1,0 +1,6 @@
+{
+  "pkgRoot": "dist/ngx-grpc-interceptor",
+  "branches": [
+    "master"
+  ]
+}
