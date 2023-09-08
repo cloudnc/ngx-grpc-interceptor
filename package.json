@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prettier": "prettier",
+    "prettier:base": "yarn run prettier \"**/*.{js,json,scss,md,ts,html,component.html}\"",
+    "prettier:write": "yarn run prettier:base --write",
+    "prettier:check": "yarn run prettier:base --list-different"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +38,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "ng-packagr": "^16.2.0",
+    "prettier": "3.0.3",
     "typescript": "~5.1.3"
   }
 }
