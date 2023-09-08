@@ -8,7 +8,7 @@ describe('NgxGrpcInterceptorComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NgxGrpcInterceptorComponent]
+      declarations: [NgxGrpcInterceptorComponent],
     });
     fixture = TestBed.createComponent(NgxGrpcInterceptorComponent);
     component = fixture.componentInstance;

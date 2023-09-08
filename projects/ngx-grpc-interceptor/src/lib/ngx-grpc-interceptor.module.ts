@@ -1,16 +1,9 @@
 import { NgModule } from '@angular/core';
 import { NgxGrpcInterceptorComponent } from './ngx-grpc-interceptor.component';
 
-
-
 @NgModule({
-  declarations: [
-    NgxGrpcInterceptorComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    NgxGrpcInterceptorComponent
-  ]
+  declarations: [NgxGrpcInterceptorComponent],
+  imports: [],
+  exports: [NgxGrpcInterceptorComponent],
 })
-export class NgxGrpcInterceptorModule { }
+export class NgxGrpcInterceptorModule {}
